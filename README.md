@@ -29,7 +29,7 @@ El sistema gestiona las siguientes tablas:
 Tecnologías Utilizadas
 ----------------------
 - Java 17.
-- Maven para la gestión de dependencias.
+- Gradle para la gestión de dependencias.
 - JPA (Java Persistence API) para la gestión de la persistencia de datos.
 - Hibernate como proveedor de JPA.
 - Hibernate Envers para auditoría de entidades.
