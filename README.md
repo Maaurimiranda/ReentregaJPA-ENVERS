@@ -1,5 +1,4 @@
 ## Proyecto de Gestión de Facturas con JPA y Hibernate Envers ##
-==========================================================
 
 Descripción
 -----------
@@ -22,4 +21,16 @@ El sistema gestiona las siguientes tablas:
 - Cliente: Información de los clientes.
 - Domicilio: Datos del domicilio asociados a un cliente.
 - Factura: Registro de las ventas realizadas, con referencias a los clientes y detalles de los productos vendidos.
-- DetalleF
+- DetalleFactura: Detalles de cada artículo en una factura.
+- Artículo: Productos vendidos, incluyendo su cantidad y precio.
+- Categoría: Clasificación de los artículos.
+- Relaciones: Tablas intermedias como articulo_categoria para relacionar artículos y categorías.
+
+Tecnologías Utilizadas
+----------------------
+- Java 17.
+- Maven para la gestión de dependencias.
+- JPA (Java Persistence API) para la gestión de la persistencia de datos.
+- Hibernate como proveedor de JPA.
+- Hibernate Envers para auditoría de entidades.
+- Base de datos H2 para el almacenamiento en memoria.
